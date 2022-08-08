@@ -1,0 +1,26 @@
+body,ul,li,h1{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+h1{
+  font-size: 0px;
+}
+.nav__text{
+font-weight: 400;
+font-size: 16px;
+line-height: 50px;
+/* or 312% */
+color: #202020;
+}
+.nav__list{
+  display: flex;
+}
+.nav__item+.nav__item{
+  margin-left: 31px;
+}
