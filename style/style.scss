@@ -4,6 +4,10 @@ h1,
 nav,
 li,
 h2,
+h3,
+h4,
+h5,
+h6,
 button,
 p {
 	margin: 0px;
@@ -27,6 +31,17 @@ h1 {
 	width: 100%;
 }
 
+.site-box {
+	&__link {
+		font-weight: 600;
+		font-size: 14px;
+		color: #d2374a;
+	}
+	&__title {
+	}
+	display: flex;
+	align-items: center;
+}
 .nav {
 	&__list {
 		display: flex;
