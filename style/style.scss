@@ -108,11 +108,47 @@ h1 {
 		justify-content: space-between;
 	}
 	&__item {
+		border: 2px solid black;
+		position: relative;
 		width: 304px;
 		height: 304px;
 	}
 	&__title {
 	}
-	&_img {
+	&__img {
+		position: absolute;
+		bottom: 10%;
+		right: 0;
+	}
+	&__img-back {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+	}
+}
+
+.back-img {
+	background-image: url("../img/category/category1.png");
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+}
+.transform {
+	padding: 200px;
+	background-color: aquamarine;
+	position: relative;
+
+	&::before {
+		content: "wpwpgo";
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		background-color: #d2374a;
+		transform: translate(-50%, -50%) scale(2);
+		border-radius: 100%;
 	}
 }
