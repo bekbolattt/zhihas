@@ -1,5 +1,8 @@
-let mainBtn = document.querySelector("button");
-console.log(mainBtn);
-mainBtn.addEventListener("click", function () {
-	alert("error");
-});
+// "use strict";
+let obj = {
+	name: "Bek",
+	SayHello() {
+		console.log(obj.name);
+	},
+};
+obj.SayHello();
